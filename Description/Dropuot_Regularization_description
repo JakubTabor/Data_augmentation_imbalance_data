@@ -6,3 +6,4 @@
 
 # Now i split my data into train and test sets and check their shape and i can see class imbalance
 * In this case i can ignore it and show only (dropping of neurons method) for improvement in accuracy
+ # So i import tensorflow and keras to create my (neural net)
