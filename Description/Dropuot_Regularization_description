@@ -3,3 +3,5 @@
 * I only need to check if there is any null values and class imbalance
 * Then i separate last column, it will be my (y) target feature
 * And i convert my (y) into dummy column, because it is not numerical
+
+# Now i split my data into train and test sets and check their shape and i can see class imbalance
