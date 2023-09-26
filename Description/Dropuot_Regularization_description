@@ -1,4 +1,4 @@
 **DROPOUT REGULARIZATION**
-# This dataset is made on (sonar data), it is full numerical data, so there is no need to preprocess it
+# This dataset is made on (sonar data), it is full numerical data, so there is no need to preprocess it, only simple processing
 * I only need to check if there is any null values and class imbalance
 * Then i separate last column, it will be my (y) target feature
