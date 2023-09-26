@@ -5,3 +5,4 @@
 * And i convert my (y) into dummy column, because it is not numerical
 
 # Now i split my data into train and test sets and check their shape and i can see class imbalance
+* In this case i can ignore it and show only (dropping of neurons method) for improvement in accuracy
