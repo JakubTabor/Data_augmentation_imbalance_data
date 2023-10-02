@@ -13,3 +13,4 @@
 * And final (output layer with only 1 neuron) and activation as (sigmoid)
 
 # Then i compile my model with loss as (binary_crossentropy), because of binary output
+* The best optimizer in this case (adam) and i want metrics as (accuracy)
