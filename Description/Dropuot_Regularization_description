@@ -20,3 +20,4 @@
 * Then i also prepare ypred for confusion matrix and check my model predictions
 * I can see that my model with (accuracy 0.8269) make good predictions and fits in the data
 * Now I call (classification report) and see that (true and predicted classes) have different values
+* It means that it is not a balance model, but (F1 score) is not that different which is a good sign
