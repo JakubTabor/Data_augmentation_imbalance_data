@@ -11,3 +11,5 @@
 * I create first layer with (60 neurons) and (60 dimensions) with activation as relu
 * Next i create another two (hidden layers) with (30 and 15 neurons) and same activation (relu)  
 * And final (output layer with only 1 neuron) and activation as (sigmoid)
+
+# Then i compile my model with loss as (binary_crossentropy), because of binary output
