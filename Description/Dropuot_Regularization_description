@@ -14,3 +14,5 @@
 
 # Then i compile my model with loss as (binary_crossentropy), because of binary output
 * The best optimizer in this case (adam) and i want metrics as (accuracy)
+
+# Then I train my model with my (train sets), then (100 passes) and (8 samples)
