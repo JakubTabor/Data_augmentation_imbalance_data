@@ -9,3 +9,4 @@
 
 # So i import tensorflow and keras to create my (neural net)
 * I create first layer with (60 neurons) and (60 dimensions) with activation as relu
+* Next i create another two (hidden layers) with (30 and 15 neurons) and same activation (relu)  
