@@ -28,3 +28,4 @@
 * And now i add (Dropout layer) which gonna drop (0.5 of neurons after pass)
 
 # Then i create another layers with (30 and 15 neurons), after every layer i add (Dropout layers)
+* And final output layer with one nueron
