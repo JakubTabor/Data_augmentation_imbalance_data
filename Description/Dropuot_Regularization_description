@@ -33,3 +33,4 @@
 * Next i train my model with same (train sets and parameters as previous)
 
 # I can see that my accuracy never reach accuracy (1.0) which is a good sign, there is no overfitting
+* After evaluation i get accuracy (0.8462), so there is improvement in comparison to my previous model
