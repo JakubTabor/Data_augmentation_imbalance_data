@@ -31,3 +31,5 @@
 * And final output layer with one nueron
 * I compile my second model with the same parameters as in my previous model, there is no need to make any changes
 * Next i train my model with same (train sets and parameters as previous)
+
+# I can see that my accuracy never reach accuracy (1.0) which is a good sign
