@@ -29,3 +29,4 @@
 
 # Then i create another layers with (30 and 15 neurons), after every layer i add (Dropout layers)
 * And final output layer with one nueron
+* I compile my second model with the same parameters as in my previous model, there is no need to make any changes
