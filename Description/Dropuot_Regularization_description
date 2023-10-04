@@ -16,7 +16,7 @@
 * The best optimizer in this case (adam) and i want metrics as (accuracy)
 
 # Then I train my model with my (train sets), then (100 epochs) and (8 samples)
-* Accuracy reaches 1.0 which is the sign of overfitting, but after evaluation accuracy is 0.8077
+* Accuracy reaches 1.0 which is the sign of overfitting, but after evaluation accuracy is (0.8077)
 * Then i also prepare ypred for confusion matrix and check my model predictions
 * I can see that my model with (accuracy 0.8269) make good predictions and fits in the data
 * Now I call (classification report) and see that (true and predicted classes) have different values
@@ -33,5 +33,5 @@
 * Next i train my model with same (train sets and parameters as previous)
 
 # I can see that my accuracy never reach accuracy (1.0) which is a good sign, there is no overfitting
-* After evaluation i get accuracy (0.8462), so there is improvement in comparison to my previous model
+* After evaluation i get accuracy (0.8269), so there is improvement in comparison to my previous model
 * I check also predictions of my model and it seems that it fit the data and work good
