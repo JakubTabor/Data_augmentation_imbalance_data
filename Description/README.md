@@ -7,6 +7,11 @@
 # Now i split my data into train and test sets and check their shape and i can see class imbalance
 * In this case i can ignore it and show only (dropping of neurons method) for improvement in accuracy
 
+# But first i will show how the most popular activation function (RELU) look like 
+*It activates when it get positive input, but when it get negative input it become zero
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/RELU.png)
+
 # So i import tensorflow and keras to create my (neural net)
 * I create first layer with (60 neurons) and (60 dimensions) with activation as relu
 * Next i create another two (hidden layers) with (30 and 15 neurons) and same activation (relu)  
