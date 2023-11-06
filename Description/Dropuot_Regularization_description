@@ -23,6 +23,8 @@
 * It means that it is not a balance model, but (F1 score) is not that different which is a good sign
 * The average score is (0.81), i gonna compare it with next model which gonna have (dropping neurons layers)
 
+![https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/Report_first_model.png]
+
 # Next i create another model, this one gonna have (dropout layers)
 * First i create layer with (60 neurons and size of input dimensions as 60, with activation relu)
 * And now i add (Dropout layer) which gonna drop (0.5 of neurons after pass)
