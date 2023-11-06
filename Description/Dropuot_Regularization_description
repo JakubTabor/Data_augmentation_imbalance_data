@@ -41,3 +41,4 @@
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/Report_secound_model.png)
 
 # When i call (classification report) i can see statistic improvement
+* I see that the average score is around (0.83)
