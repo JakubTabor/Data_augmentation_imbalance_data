@@ -38,4 +38,6 @@
 * After evaluation i get accuracy (0.8269), so there is improvement in comparison to my previous model
 * I check also predictions of my model and it seems that it fit the data and work good
 
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/Report_secound_model.png)
+
 # When i call (classification report) i can see statistic improvement
