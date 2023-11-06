@@ -23,7 +23,7 @@
 * It means that it is not a balance model, but (F1 score) is not that different which is a good sign
 * The average score is (0.81), i gonna compare it with next model which gonna have (dropping neurons layers)
 
-![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/Report_first_model.png)
+![https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/Report_first_model.png]
 
 # Next i create another model, this one gonna have (dropout layers)
 * First i create layer with (60 neurons and size of input dimensions as 60, with activation relu)
@@ -38,4 +38,9 @@
 * After evaluation i get accuracy (0.8269), so there is improvement in comparison to my previous model
 * I check also predictions of my model and it seems that it fit the data and work good
 
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/Report_secound_model.png)
+
 # When i call (classification report) i can see statistic improvement
+* I see that the average score is around (0.83)
+
+# That was only simple example to show how we can improve ouraccuracy with adding or removing some parameters
