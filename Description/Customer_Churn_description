@@ -2,3 +2,5 @@
 * In this project i gonna examine Customer churn dataset
 * Then create a proper model and finally try to resolve the problem of class imbalance
 * And search for the best sampling method
+
+# First i make simple data preprocessing
