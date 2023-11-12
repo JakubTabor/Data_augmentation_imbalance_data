@@ -4,3 +4,4 @@
 * And search for the best sampling method
 
 # First i make simple data preprocessing
+* I take care of TotalCharges column, i change the type from object to **float64 with double precision**
