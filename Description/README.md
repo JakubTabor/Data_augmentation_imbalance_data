@@ -49,3 +49,5 @@
 * I see that the average score is around (0.83)
 
 # That was only simple example to show how we can improve ouraccuracy with adding or removing some parameters
+
+**MORE ADVANCE EXAMPLE (OVERFITTING_CNN)**
