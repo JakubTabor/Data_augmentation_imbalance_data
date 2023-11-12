@@ -47,11 +47,14 @@
 
 # When i call (classification report) i can see statistic improvement
 * I see that the average score is around (0.83)
-
-# That was only simple example to show how we can improve ouraccuracy with adding or removing some parameters
-
-**MORE ADVANCE EXAMPLE (OVERFITTING_CNN)**
- **Data_Augmentation_Overfitting__CNN**
+* That was only simple example to show how we can improve ouraccuracy with adding or removing some parameters
+#
+#
+#
+#
+# **MORE ADVANCE EXAMPLE (OVERFITTING_CNN)**
+#
+**Data_Augmentation_Overfitting__CNN**
 # First I need to download dataset from tensorflow
 # So i save "url", then I use method "get_file" on "flower_photos" from my saved url "dataset_url"
 * I save it in directory and unzip, using "untar"
