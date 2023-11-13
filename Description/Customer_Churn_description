@@ -15,3 +15,4 @@
 * I gonna deal with all of my columns that are object columns
 * So i create function that show the type of my columns
 * At this stage i have a lot of object columns
+* I take care of them by replacing complex informations (No internet service) to simple answer (No)
