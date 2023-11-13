@@ -5,3 +5,4 @@
 
 # First i make simple data preprocessing
 * I take care of **TotalCharges column**, i change the type **from object** to **float64 with double precision**
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/dtype_float64.png)
