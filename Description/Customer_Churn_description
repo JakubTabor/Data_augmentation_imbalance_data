@@ -16,5 +16,7 @@
 * So i create function that show the type of my columns
 * At this stage i have a lot of object columns
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/unique_values.png)
+
 * I take care of them by replacing complex informations (No internet service) to simple answer (No)
 * And now i can convert (yes and no) columns into (binary form) 1 and 0
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/binary_form.png)
