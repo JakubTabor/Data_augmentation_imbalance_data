@@ -23,3 +23,4 @@
 * I also replace (Female and Male) into (1 and 0)
 * Then i  apply dummy variables to more complex columns
 * Now my dataset is expanded into new columns, but it keep the complexity of the data
+* There is no losse of informations 
