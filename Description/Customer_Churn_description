@@ -22,3 +22,4 @@
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/binary_form.png)
 * I also replace (Female and Male) into (1 and 0)
 * Then i  apply dummy variables to more complex columns
+* Now my dataset is expanded into new columns, but it keep the complexity of the data
