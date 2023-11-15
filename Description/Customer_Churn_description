@@ -31,3 +31,5 @@
 
 # To fully numerical (float and int)
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/data_types_numerical.png)
+
+# Now i gonna scale my columns into range (0 - 1), it will help my model in training process
