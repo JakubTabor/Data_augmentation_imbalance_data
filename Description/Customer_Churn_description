@@ -25,6 +25,7 @@
 * Then i  apply dummy variables to more complex columns
 * Now my dataset is expanded into new columns, but it keep the complexity of the data
 * There is no losse of informations 
+* And choose number of epochs, same in every case
 
 # Now my data types are changed from almost fully object types
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/data_types_object.png)
