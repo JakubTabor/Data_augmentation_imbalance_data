@@ -39,3 +39,4 @@
 * And show how it affect the (f1 score), which is an important measurement
 
 # Next i create function that will be a (Neural Net model) with simple 3 (Dense layers)
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/ANN_model_function.png)
