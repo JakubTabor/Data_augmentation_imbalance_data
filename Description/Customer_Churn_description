@@ -45,5 +45,6 @@
 * And i set the loss during training process
 * Also i include evaluation in this function 
 * The prediction and (classification report)
+* This function will help me automatized all training and evaluation process
 
 
