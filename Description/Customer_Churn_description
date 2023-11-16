@@ -36,4 +36,6 @@
 
 # Next i prepare the data for my model
 * Then i create (train and test sets) and show the class imbalance
-* I am gonna show how it affect the (f1 score), which is an important measurement
+* And show how it affect the (f1 score), which is an important measurement
+
+# Next i create function that will be a (Neural Net model) with simple 3 (Dense layers)
