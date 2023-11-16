@@ -26,8 +26,6 @@
 * Now my dataset is expanded into new columns, but it keep the complexity of the data
 * There is no losse of informations 
 
-# Then i create (train and test sets) and show the class imbalance
-
 # Now my data types are changed from almost fully object types
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/data_types_object.png)
 
@@ -37,3 +35,5 @@
 # Now i gonna scale my columns into range (0 - 1), it will help my model in training process
 
 # Next i prepare the data for my model
+* Then i create (train and test sets) and show the class imbalance
+* I am gonna show how it affect the (f1 score), which is an important measurement
