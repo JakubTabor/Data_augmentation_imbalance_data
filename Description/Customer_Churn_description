@@ -43,3 +43,6 @@
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/ANN_model_function.png)
 * Then i compile my model with (adam optimizer)
 * And i set the loss during training process
+* Also i include evaluation in this function 
+
+
