@@ -56,3 +56,4 @@
 * The first class (Yes) is obviously smaller (1869 samples to 5163(No) samples)
 
 # Now i gonna use method (undersampling) to see how it affect the score of my model
+* So first i equalize my (0 class) to the size of (1 class) and then concatenate them
