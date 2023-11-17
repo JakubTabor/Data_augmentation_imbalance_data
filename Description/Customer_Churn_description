@@ -51,3 +51,5 @@
 * The loss is low, it is (0.4490) which is also fine
 * But we can see very high class disproportion (true and predicted are 0.86 and 0.54)
 * This is bad sign, we are gonna try to reduce disproportion in both classes 
+
+# First i gonna check number of the values in both classes of the (Churn)
