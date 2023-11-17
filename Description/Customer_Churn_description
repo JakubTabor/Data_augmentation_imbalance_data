@@ -47,4 +47,6 @@
 * The prediction and (classification report)
 * This function will help me automatized all training and evaluation process
 
+# I get my first model evaluation and (the accuracy is 0.7846) which is fine, but we can boost it
+
 
