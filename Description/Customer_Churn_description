@@ -59,3 +59,4 @@
 * So first i equalize my (0 class) to the size of (1 class) and then concatenate them
 * Next i create from them (train and test sets)
 * When i check (value counts) in my train set there is no class imbalance
+* I train my model with this sets and check (Classification Report)
