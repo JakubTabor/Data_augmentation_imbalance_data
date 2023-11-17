@@ -53,3 +53,4 @@
 * This is bad sign, we are gonna try to reduce disproportion in both classes 
 
 # First i gonna check number of the values in both classes of the (Churn)
+* The first class (Yes) is obviously smaller (1869 samples to 5163 samples)
