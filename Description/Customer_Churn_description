@@ -67,3 +67,4 @@
 * This is a better model, trained on balanced dataset, my model is more reliable 
 
 # Now i gonna do oversampling method
+* So i fill my first class with samples, to make it equal as my (0 class)
