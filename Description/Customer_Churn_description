@@ -62,5 +62,6 @@
 * When i check (value counts) in my train set there is no class imbalance
 * I train my model with this sets and check (Classification Report)
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_under_sampling.png)
-* We can see that the (accuracy is lower and loss higher), but in (f1 score measurement we reach similar results for both classes)
+* We can see that the (accuracy is lower and loss higher)
+* But in (f1 score measurement we reach similar results for both classes)
 # 
