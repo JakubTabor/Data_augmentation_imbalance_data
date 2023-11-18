@@ -48,6 +48,7 @@
 * This function will help me automatized all training and evaluation process
 
 # I get my first model evaluation and (the accuracy is 0.7846) which is fine, but we can boost it
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_class_imbalance.png)
 * The loss is low, it is (0.4490) which is also fine
 * But we can see very high class disproportion (true and predicted are 0.86 and 0.54)
 * This is bad sign, we are gonna try to reduce disproportion in both classes 
