@@ -69,3 +69,4 @@
 # Now i gonna do oversampling method
 * So i fill my first class with samples, to make it equal as my (0 class)
 * Now both calsses have (5163 samples)
+* Then after creation of both sets, my (train set have 4130) and (test set have 1033)
