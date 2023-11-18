@@ -60,3 +60,4 @@
 * Next i create from them (train and test sets)
 * When i check (value counts) in my train set there is no class imbalance
 * I train my model with this sets and check (Classification Report)
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_under_sampling.png)
