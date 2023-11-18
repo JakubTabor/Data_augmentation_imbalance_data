@@ -65,3 +65,5 @@
 * We can see that the (accuracy is lower and loss higher)
 * But in (f1 score measurement we reach similar results for both classes)
 * This is a better model, trained on balanced dataset, my model is more reliable 
+
+# Now i gonna do oversampling method
