@@ -79,3 +79,4 @@
 # Now i gonna use (Smote over sampling method)
 * This thechnic reproduce synthetic samples from (in our case) minority class
 * I start from creating two sets (X smote and Y smote)
+* And then creating from them (train and test sets), we can see that number of samples are same that in (oversampling method)
