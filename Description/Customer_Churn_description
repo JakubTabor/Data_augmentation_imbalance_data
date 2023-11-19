@@ -83,3 +83,4 @@
 * Next i train my neural net with them and look at results
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_smote.png)
 * We can see that (accuracy reaches 0.82) which are the highest from all of my models
+* And loss also droped from (0.4583 in over-sampling to 0.4094)
