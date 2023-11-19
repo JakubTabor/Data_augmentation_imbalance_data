@@ -75,3 +75,5 @@
 * We can clearly see that more samples for training and evaluation affect positively the accuracy and loss
 * Which are now (accuracy score to almost 0.80), that's higher than in my original model
 * And the (f1 score is high 0.78 and 0.81 in both calsses)
+
+# Now i gonna use (Smote over sampling method)
