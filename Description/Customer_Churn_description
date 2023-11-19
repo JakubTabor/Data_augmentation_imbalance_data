@@ -73,3 +73,4 @@
 * I gonna see how larger number of samples affect the model score
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_over_sampling.png)
 * We can clearly see that more samples for training and evaluation affect positively the accuracy and loss
+* Which are now (accuracy score to almost 0.80), that's higher than in my original model
