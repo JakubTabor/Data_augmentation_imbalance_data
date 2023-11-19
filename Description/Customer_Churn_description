@@ -72,3 +72,4 @@
 * Then after creation of both sets, my (train set have 4130) and (test set have 1033)
 * I gonna see how larger number of samples affect the model score
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_over_sampling.png)
+* We can clearly see that more samples for training and evaluation affect positively the accuracy and loss
