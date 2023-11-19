@@ -81,3 +81,4 @@
 * I start from creating two sets (X smote and Y smote)
 * And then creating from them (train and test sets), we can see that number of samples are same that in (oversampling method)
 * Next i train my neural net with them and look at results
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_smote.png)
