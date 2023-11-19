@@ -77,3 +77,4 @@
 * And the (f1 score is high 0.78 and 0.81 in both calsses)
 
 # Now i gonna use (Smote over sampling method)
+* This thechnic reproduce synthetic samples from (in our case) minority class
