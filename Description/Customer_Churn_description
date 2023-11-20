@@ -91,3 +91,5 @@
 * Then we create three models and we are gonna choose the majority vote, the average score
 * And then i create function that will vote for the best model of them all
 
+* There is no much improvement, only in average score there in no big spread
+
