@@ -87,4 +87,5 @@
 * This is our greatest improvement at this point, the average accuracy is now (0.82)
 
 # Next i gonna try ensemble method, i gonna split my data into three batches form our majority class
+* So i create function to create this three batches and then concatenate them
 
