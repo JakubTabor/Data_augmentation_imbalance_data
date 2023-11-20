@@ -90,6 +90,6 @@
 * So i create function to create this three batches and then concatenate them
 * Then we create three models and we are gonna choose the majority vote, the average score
 * And then i create function that will vote for the best model of them all
-
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/ensemble_final_report.png)
 * There is no much improvement, only in average score there in no big spread
 
