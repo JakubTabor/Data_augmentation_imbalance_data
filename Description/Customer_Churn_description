@@ -89,5 +89,5 @@
 # Next i gonna try ensemble method, i gonna split my data into three batches form our majority class
 * So i create function to create this three batches and then concatenate them
 * Then we create three models and we are gonna choose the majority vote, the average score
-* Which is the best of this three models
+* And then i create function that will vote for the best model of them all
 
