@@ -93,3 +93,5 @@
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/ensemble_final_report.png)
 * There is no much improvement, only in average score there in no big spread
 
+# The conclusion is that our best model is (Smote model), we reach the best f1 score 
+
