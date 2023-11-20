@@ -94,4 +94,5 @@
 * There is no much improvement, only in average score there in no big spread
 
 # The conclusion is that our best model is (Smote model), we reach the best f1 score 
+* Average is not that important when there is class imbalance
 
