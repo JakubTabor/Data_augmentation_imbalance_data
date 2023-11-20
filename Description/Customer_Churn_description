@@ -85,3 +85,5 @@
 * We can see that (accuracy reaches 0.82) which are the highest from all of my models
 * And loss also droped from (0.4583 in over-sampling to 0.4094)
 * This is our greatest improvement at this point, the average accuracy is now (0.82)
+
+# I gonna also try to train my model with the samples batches
