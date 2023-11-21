@@ -3,4 +3,5 @@
 * I start with the simplest example, it will be (dropping neurons tehnic)
 * I need to do only simple preparation of data for my model, because it is fully numerical
 * I show the most popular activation function for (Neural net), which is relu
+#
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/RELU.png)
