@@ -138,3 +138,104 @@
 #
 #
 #
+# Customer_Churn_description
+* In this project i gonna examine **Customer churn dataset**
+* Then create a proper model and finally try to **resolve the problem of class imbalance**
+* And search for **the best sampling method**
+
+# First i make simple data preprocessing
+* I take care of **TotalCharges column**, i change the type **from object** to **float64 with double precision**
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/dtype_float64.png)
+
+# Now i plot customer churn in relation to tenure of customers
+* Conclusion is that if customers have more tenure they are more likely to stay
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/customer_churn_plot.png)
+
+# Next when i have idea when the customers are more willing to go and stay
+* I gonna deal with all of my columns that are object columns
+* So i create function that show the type of my columns
+* At this stage i have a lot of object columns
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/unique_values.png)
+
+* I take care of them by replacing complex informations (No internet service) to simple answer (No)
+* And now i can convert (yes and no) columns into (binary form) 1 and 0
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/binary_form.png)
+
+* I also replace (Female and Male) into (1 and 0)
+* Then i  apply dummy variables to more complex columns
+* Now my dataset is expanded into new columns, but it keep the complexity of the data
+* There is no losse of informations 
+* And choose number of epochs, same in every case
+
+# Now my data types are changed from almost fully object types
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/data_types_object.png)
+
+# To fully numerical (float and int)
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/data_types_numerical.png)
+
+# Now i gonna scale my columns into range (0 - 1), it will help my model in training process
+
+# Next i prepare the data for my model
+* Then i create (train and test sets) and show the class imbalance
+* And show how it affect the (f1 score), which is an important measurement
+
+# Next i create function that will be a (Neural Net model) with simple 3 (Dense layers)
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/ANN_model_function.png)
+* Then i compile my model with (adam optimizer)
+* And i set the loss during training process
+* Also i include evaluation in this function 
+* The prediction and (classification report)
+* This function will help me automatized all training and evaluation process
+
+# I get my first model evaluation and (the accuracy is 0.7846) which is fine, but we can boost it
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_class_imbalance.png)
+* The loss is low, it is (0.4490) which is also fine
+* But we can see very high class disproportion (true and predicted are 0.86 and 0.54)
+* This is bad sign, we are gonna try to reduce disproportion in both classes 
+
+# First i gonna check number of the values in both classes of the (Churn)
+* The first class (Yes) is obviously smaller (1869 samples to 5163(No) samples)
+
+# Now i gonna use method (undersampling) to see how it affect the score of my model
+* So first i equalize my (0 class) to the size of (1 class) and then concatenate them
+* Next i create from them (train and test sets)
+* When i check (value counts) in my train set there is no class imbalance
+* I train my model with this sets and check (Classification Report)
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_under_sampling.png)
+* We can see that the (accuracy is lower and loss higher)
+* But in (f1 score measurement we reach similar results for both classes)
+* This is a better model, trained on balanced dataset, my model is more reliable 
+
+# Now i gonna do oversampling method
+* So i fill my first class with samples, to make it equal as my (0 class)
+* Now both calsses have (5163 samples)
+* Then after creation of both sets, my (train set have 4130) and (test set have 1033)
+* I gonna see how larger number of samples affect the model score
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_over_sampling.png)
+* We can clearly see that more samples for training and evaluation affect positively the accuracy and loss
+* Which are now (accuracy score to almost 0.80), that's higher than in my original model
+* And the (f1 score is high 0.78 and 0.81 in both calsses)
+
+# Now i gonna use (Smote over sampling method)
+* This thechnic reproduce synthetic samples from (in our case) minority class
+* I start from creating two sets (X smote and Y smote)
+* And then creating from them (train and test sets), we can see that number of samples are same that in (oversampling method)
+* Next i train my neural net with them and look at results
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_smote.png)
+* We can see that (accuracy reaches 0.82) which are the highest from all of my models
+* And loss also droped from (0.4583 in over-sampling to 0.4094)
+* This is our greatest improvement at this point, the average accuracy is now (0.82)
+
+# Next i gonna try ensemble method, i gonna split my data into three batches form our majority class
+* So i create function to create this three batches and then concatenate them
+* Then we create three models and we are gonna choose the majority vote, the average score
+* And then i create function that will vote for the best model of them all
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/ensemble_final_report.png)
+* There is no much improvement, only in average score there in no big spread
+
+# The conclusion is that our best model is (Smote model), we reach the best f1 score 
+* Average is not that important when there is class imbalance
+* Our goal was to improve the (score for our class 1) and we reach (0.83) with smote tehnic
+
+
+
