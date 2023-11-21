@@ -134,7 +134,7 @@
 #
 #
 #
-# Complex example of boosting accuracy and deal with class imbalance
+# **(Complex example of boosting accuracy and deal with class imbalance)**
 #
 #
 #
