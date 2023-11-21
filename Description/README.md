@@ -130,3 +130,11 @@
 * in my previous model **it was 63**
 * So we can notice the difference, by adding new samples to our data and drop some neurons we can achieve better accuracy
 * Its because our model is trained on more possible variants of images
+#
+#
+#
+#
+# Complex example of boosting accuracy and deal with class imbalance
+#
+#
+#
