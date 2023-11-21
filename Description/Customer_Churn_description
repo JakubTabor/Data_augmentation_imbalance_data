@@ -95,4 +95,6 @@
 
 # The conclusion is that our best model is (Smote model), we reach the best f1 score 
 * Average is not that important when there is class imbalance
+* Our goal was to improve the (score for our class 1) and we reach (0.83) with smote tehnic
+
 
