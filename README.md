@@ -11,3 +11,4 @@
 * (accuracy is 0.8077 and loss 0.7854) despite that during training it achive (accuracy: 1.0000 and loss: 0.0021)
 * When i check classification report (f1-score for both calsses is 0.82 and 0.79)
 # So i build another model, but now with dropout layers
+* Now the (accuracy reaches around 0.9 and loss 0.30)
