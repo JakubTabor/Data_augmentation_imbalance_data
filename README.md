@@ -7,4 +7,4 @@
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/Relu.png)
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/Sigmoid.png)
 * And then i build simple sequential model
-* 
+* I allow the situation when occurs the overfitting
