@@ -12,3 +12,4 @@
 * When i check classification report (f1-score for both calsses is 0.82 and 0.79)
 # So i build another model, but now with dropout layers
 * Now the (accuracy reaches around 0.9 and loss 0.30)
+* After evaluation the score is (0.82 and loss 0.42)
