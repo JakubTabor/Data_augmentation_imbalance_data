@@ -8,3 +8,4 @@
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/Sigmoid.png)
 * And then i build simple sequential model
 * I allow the situation when occurs the overfitting
+* (accuracy is 0.8077 and loss 0.7854) despite that during training it achive (accuracy: 1.0000 and loss: 0.0021)
