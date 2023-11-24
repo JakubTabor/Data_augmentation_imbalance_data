@@ -1,4 +1,4 @@
- **Data_augmentation_imbalance_data**
+# [Example 1: Dropout Regularization](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Dropout_Regularization.ipynb)
 # In this section i gonna show three examples how we can improve accuracy by implementation of some techniques
 * I start with the simplest example, it will be (dropping neurons tehnic)
 * I need to do only simple preparation of data for my model, because it is fully numerical
@@ -14,4 +14,5 @@
 * Now the (accuracy reaches around 0.9 and loss 0.30)
 * After evaluation the score is **(0.82 and loss 0.42)**
 * We can clearly see that the accuracy is higher and loss is lower, that's all the good signs
+
 
