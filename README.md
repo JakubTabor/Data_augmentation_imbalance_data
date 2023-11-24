@@ -15,4 +15,5 @@
 * After evaluation the score is **(0.82 and loss 0.42)**
 * We can clearly see that the accuracy is higher and loss is lower, that's all the good signs
 
+# [Example 2: Data Augmentation CNN](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Data_Augmentation_Overfitting__CNN.ipynb)
 
