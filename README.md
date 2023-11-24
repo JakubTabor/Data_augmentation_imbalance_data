@@ -13,3 +13,5 @@
 # So i build another model, but now with dropout layers
 * Now the (accuracy reaches around 0.9 and loss 0.30)
 * After evaluation the score is (0.82 and loss 0.42)
+* We can clearly see that the accuracy is higher and loss is lower, that's all the good signs
+
