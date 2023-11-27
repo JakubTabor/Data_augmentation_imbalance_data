@@ -17,4 +17,4 @@
 
 # [Example 2: Data Augmentation CNN](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Data_Augmentation_Overfitting__CNN.ipynb)
 # In this example i show data augmentation in form of layer insite Convolution Neural Net
-
+* First i download the dataset which contains images of flowers
