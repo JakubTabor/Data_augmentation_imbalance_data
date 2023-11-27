@@ -18,4 +18,5 @@
 # [Example 2: Data Augmentation CNN](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Data_Augmentation_Overfitting__CNN.ipynb)
 # In this example i show data augmentation in form of layer insite Convolution Neural Net
 * First i download the dataset which contains images of flowers
-* I prepare them using (Pathlib), then convert them into dictionary and set labels
+* I prepare them using **(Pathlib and cv2)**, then convert them into dictionary and set labels
+* Then i create function which return me two lists of (resized and converted into numpy array)
