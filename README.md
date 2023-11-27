@@ -19,4 +19,5 @@
 # In this example i show data augmentation in form of layer insite Convolution Neural Net
 * First i download the dataset which contains images of flowers
 * I prepare them using **(Pathlib and cv2)**, then convert them into dictionary and set labels
-* Then i create function which return me two lists of (resized and converted into numpy array)
+* Then i create function which return me two lists of **(resized and converted into numpy array)**
+* Next i create (train and test sets) and scale them in range 0 to 1
