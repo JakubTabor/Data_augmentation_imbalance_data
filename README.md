@@ -28,3 +28,4 @@
 
 # Then i create the layer with data augmentation
 * And place it at the first place in my another model
+* I measure the parameters of this model and i get improvement
