@@ -26,5 +26,5 @@
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/Model_before_augmentation.png)
 * We can see that **(accuracy is pretty low and the loss is pretty high)**
 
-# Then i crete the layer with data augmentation
-
+# Then i create the layer with data augmentation
+* And place it at the first place in my another model
