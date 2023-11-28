@@ -24,3 +24,4 @@
 
 # I build first model to measure accuracy and compare it later with (augmented model)
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/Model_before_augmentation.png)
+* We can see that **(accuracy is pretty low and the loss is pretty high)**
