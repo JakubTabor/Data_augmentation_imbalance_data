@@ -30,3 +30,4 @@
 * And place it at the first place in my another model
 * I measure the parameters of this model and i get improvement
 # The accuracy is now 0.70 and loss 0.95
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/Model_after_augmentation.png)
