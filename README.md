@@ -24,8 +24,9 @@
 
 # I build first model to measure accuracy and compare it later with (augmented model)
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/Model_before_augmentation.png)
-* We can see that **(accuracy is pretty low and the loss is pretty high)**
+* We can see that **(accuracy is pretty low 0.63 and the loss is pretty high 2.64)**
 
 # Then i create the layer with data augmentation
 * And place it at the first place in my another model
 * I measure the parameters of this model and i get improvement
+# The accuracy is now 0.70 and loss 0.95
