@@ -26,6 +26,8 @@
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/Model_before_augmentation.png)
 * We can see that **(accuracy is pretty low 0.63 and the loss is pretty high 2.64)**
 
+# [Example 3: Customers Churn](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/imbalanced_dataset_customers_churn.ipynb)
+
 # Then i create the layer with data augmentation
 * And place it at the first place in my another model
 * I measure the parameters of this model and i get improvement
