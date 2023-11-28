@@ -23,3 +23,4 @@
 * Next i create (train and test sets) and scale them in range 0 to 1
 
 # I build first model to measure accuracy and compare it later with (augmented model)
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/Model_before_augmentation.png)
