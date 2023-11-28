@@ -21,3 +21,5 @@
 * I prepare them using **(Pathlib and cv2)**, then convert them into dictionary and set labels
 * Then i create function which return me two lists of **(resized and converted into numpy array)**
 * Next i create (train and test sets) and scale them in range 0 to 1
+
+# I build first model to measure accuracy and compare it later with (augmented model)
