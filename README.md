@@ -41,3 +41,4 @@
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/unique_values_function.png)
 
  # Then i convert all objects into full numerical data 
+ * I use replacemnt of **(yes and no into 1 and 0)** or **(No internet service to No)**
