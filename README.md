@@ -44,3 +44,5 @@
  * I use replacement of **(yes and no into 1 and 0)** or **(No internet service to No)**
  * And create dummy variables from much complicated columns
  * Finally i get fully numerical dataset and i can now create (train and test set) for my model
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/data_types_numerical.png)
