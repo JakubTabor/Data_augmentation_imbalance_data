@@ -46,3 +46,5 @@
  * Finally i get fully numerical dataset and i can now create (train and test set) for my model
 
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/data_types_numerical.png)
+
+# I create function (ANN) which i gonna train with different variants of the data (undersampling, oversampling, Smote, ensemble)
