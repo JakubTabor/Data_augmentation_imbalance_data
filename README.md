@@ -34,4 +34,5 @@
 
 # [Example 3: Customers Churn](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/imbalanced_dataset_customers_churn.ipynb)
 # In this example i gonna show how different sampling methods can affect the accuracy of the model
-* And we are gonna mesure which is the better in our case 
+* And we are gonna mesure which is the better in our case
+# First i start of data preparation
