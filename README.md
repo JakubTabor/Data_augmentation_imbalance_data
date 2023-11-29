@@ -37,4 +37,7 @@
 * And we are gonna mesure which is the better in our case
 # First i start of data preparation
 * I search for unique values in columns 
+
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/unique_values_function.png)
+
+ # Then i convert all objects into full numerical data 
