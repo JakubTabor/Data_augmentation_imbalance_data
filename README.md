@@ -56,3 +56,4 @@
 * Our goal is to improve the score from class nr. 1
 
 # Next i train my model with dataset balanced by undersampling
+* We create equal number of samples in our both classes **(our class with lower number of samples)**
