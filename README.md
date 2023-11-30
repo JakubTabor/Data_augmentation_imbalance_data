@@ -62,3 +62,4 @@
 
 # Then we train the model with over-sampling balanced dataset
 * In this case we balance our dataset making equal number of samples in both classes, but to **(class with higher number of samples)**
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_over_sampling.png)
