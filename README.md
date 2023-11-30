@@ -50,3 +50,5 @@
 # I create function (ANN) which i gonna train with different variants of the data (undersampling, oversampling, Smote, ensemble)
 
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/ANN_model_function.png)
+* First i train my model with imbalanced dataset
+# First i train my model 
