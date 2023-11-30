@@ -61,3 +61,4 @@
 * Accuracy is lower than previous, but we improve score in our class number 1
 
 # Then we train the model with over-sampling balanced dataset
+* In this case we balance our dataset making equal number of samples in both classes, but to **(class with higher number of samples)**
