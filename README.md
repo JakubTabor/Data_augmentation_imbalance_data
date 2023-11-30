@@ -53,4 +53,5 @@
 * First i train my model with imbalanced dataset
  ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_class_imbalance.png)
 * Accuracy seems to be good, but when we see (f1-score) there is big class imbalance
+* Our goal is to improve the score from class nr. 1
 # First i train my model 
