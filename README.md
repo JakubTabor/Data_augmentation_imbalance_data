@@ -58,3 +58,4 @@
 # Next i train my model with dataset balanced by undersampling
 * We create equal number of samples in our both classes **(our class with lower number of samples)**
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_under_sampling.png)
+* Accuracy is lower than previous, but we improve score in our class number 1
