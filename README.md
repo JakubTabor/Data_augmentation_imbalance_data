@@ -51,5 +51,6 @@
 
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/ANN_model_function.png)
 * First i train my model with imbalanced dataset
+ ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_class_imbalance.png)
 * Accuracy seems to be good, but when we see (f1-score) there is big class imbalance
 # First i train my model 
