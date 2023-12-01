@@ -72,4 +72,5 @@
 * We create number of synthetic samples to the number of bigger class (5163)
 * We train our model and check the results
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_smote.png)
+* We achieve at this point **(the best accuracy score 0.82)** and **(the best f1-score for the class nr.1 (0.83))**
 
