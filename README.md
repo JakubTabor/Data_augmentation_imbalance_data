@@ -70,4 +70,5 @@
 # Another technique of balancing your dataset is SMOTE
 * With this technique we are gonna create synthetic sample from our minority class
 * We create number of synthetic samples to the number of bigger class (5163)
+* We train our model and check the results
 
