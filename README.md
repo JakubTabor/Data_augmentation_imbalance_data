@@ -59,13 +59,13 @@
 # Next i train my model with dataset balanced by undersampling
 * We create equal number of samples in our both classes **(our class with lower number of samples)**
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_under_sampling.png)
-* Accuracy is lower than previous, but we improve score in our class number 1
+* Accuracy is lower than previous, but **(we improve score in our class nr.1 (0.72))**
 
 # Then we train the model with over-sampling balanced dataset
 * In this case we balance our dataset making equal number of samples in both classes, but to **(class with higher number of samples)**
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_over_sampling.png)
-* We see that the score of class number 1 is much higher than lastly
-* And even we get better accuracy after model evaluation, than in our original imbalanced dataset
+* We see that the **(score of class nr.1 is much higher than lastly (0.81))**
+* And even we get **(better accuracy after model evaluation, than in our original imbalanced dataset)**
 
 # Another technique of balancing your dataset is SMOTE
 * With this technique we are gonna create synthetic sample from our minority class
