@@ -67,5 +67,6 @@
 * We see that the score of class number 1 is much higher than lastly
 * And even we get better accuracy after model evaluation, than in our original imbalanced dataset
 
-# Another tehnic of balncing our dataset is SMOTE
+# Another technique of balancing your dataset is SMOTE
+* With this technique we are gonna create synthetic sample from our minority class
 
