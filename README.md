@@ -50,8 +50,9 @@
 # I create function (ANN) which i gonna train with different variants of the data (undersampling, oversampling, Smote, ensemble)
 
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/ANN_model_function.png)
-* First i train my model with imbalanced dataset
- ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_class_imbalance.png)
+
+# First i train my model with imbalanced dataset
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_class_imbalance.png)
 * Accuracy seems to be good, but when we see (f1-score) there is big class imbalance
 * Our goal is to improve the score from class nr. 1
 
@@ -65,4 +66,6 @@
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/report_over_sampling.png)
 * We see that the score of class number 1 is much higher than lastly
 * And even we get better accuracy after model evaluation, than in our original imbalanced dataset
+
+# 
 
