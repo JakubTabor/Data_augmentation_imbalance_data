@@ -75,4 +75,5 @@
 * We achieve at this point **(the best accuracy score 0.82)** and **(the best f1-score for the class nr.1 (0.83))**
 
 # Next technique is called ensemble learning, we are gonna train the model with three batches of data from majority class
+* I create the function to get those batches and next i gonna provide number of samples to define those batches
 
