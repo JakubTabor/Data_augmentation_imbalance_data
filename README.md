@@ -84,3 +84,4 @@
 
 # The final results are not impressing, in this case ensemble learning is not so effective
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/ensemble_final_report.png)
+* But we were able to improve f1-score from class nr.1 (previous was 0.54 now it is 0.61)
