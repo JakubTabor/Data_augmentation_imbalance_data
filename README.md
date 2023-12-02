@@ -79,3 +79,4 @@
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/get_batch_function.png)
 
 # I divide my data into three batches and train my model with it
+* All give me different results and final will be chosen as average of them
