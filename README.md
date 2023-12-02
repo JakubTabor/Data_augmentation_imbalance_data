@@ -80,3 +80,4 @@
 
 # I divide my data into three batches and train my model with it
 * All give me different results and final will be chosen as average of them
+* Final will be chosen by the votes, which are 0 or 1, so i create function from all (y_preds)
