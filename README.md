@@ -76,4 +76,4 @@
 
 # Next technique is called ensemble learning, we are gonna train the model with three batches of data from majority class
 * I create the function to get those batches and next i gonna provide number of samples to define those batches
-
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/get_batch_function.png)
