@@ -83,3 +83,4 @@
 * Final will be chosen by the votes, which are 0 or 1, so i create function from all (y_preds)
 
 # The final results are not impressing, in this case ensemble learning is not so effective
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/ensemble_final_report.png)
