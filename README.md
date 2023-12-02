@@ -89,4 +89,5 @@
 # Still the best method in that case was SMOTE technique which gives us following results 
 # (from loss: 0.4490, accuracy: 0.7846, f1-score 1 class: 0.54 SMOTE gives us: loss: 0.4094, accuracy: 0.8204,  f1-score 1 class: 0.83)
 # In this lecture we see how different types of sampling methods affect the model score 
-* Por example the difference between undersampling and oversampling: we see that higher number of samples to training affect positively the score of the model
+* Por example the difference between undersampling and oversampling
+* We see that higher number of samples to training affect positively the score of the model
