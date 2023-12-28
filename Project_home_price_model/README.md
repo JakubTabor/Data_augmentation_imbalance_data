@@ -2,3 +2,4 @@
 # In this project i gonna create Linear model for home price prediction
 # Remove outliers
 # And search for the best parameters
+* I start from simpified my data into few columns: **(location, size,	total_sqft,	bath,	price)**
