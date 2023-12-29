@@ -4,3 +4,4 @@
 # And search for the best parameters
 * I start from simpified my data into few columns: **(location, size,	total_sqft,	bath,	price)**
 * I check if there are any non-values and drop them
+* Then i create separate column for **(bhk- bedroom, hall and kitchen)** using lambda function
