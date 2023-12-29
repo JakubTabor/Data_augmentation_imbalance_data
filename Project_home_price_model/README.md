@@ -10,4 +10,4 @@
 * Then i create separate column for **(bhk- bedroom, hall and kitchen)** using lambda function
 * I can see that in this dataset i have outliers with bhk greater that 20
 * Its good to notice, i will deal with it later
-# 
+# I see that column (total_sqft) have values with two composites
