@@ -11,4 +11,5 @@
 * I can see that in this dataset i have outliers with bhk greater that 20
 * Its good to notice, i will deal with it later
 # I see that column (total_sqft) have values with two composites
-* So i create a column to search for this values 
+* So i create a function to search for this values
+* And then create function **(convert_sqft_to_num)** 
