@@ -1,1 +1,14 @@
+# [Home price prediction](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/bengaluru_home_price_model.ipynb)
+# In this section i gonna preprocess the dataset using mainly simple python and math
+* I start from simpified my data into few columns: **(location, size,	total_sqft,	bath,	price)**
+* I check if there are any non-values and drop them
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images/isnull.png)
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images/dropna.png)
+* Then i create separate column for **(bhk- bedroom, hall and kitchen)** using lambda function
+* I can see that in this dataset i have outliers with bhk greater that 20
+* Its good to notice, i will deal with it later
+# I see that column (total_sqft) have values with two composites
+* So i create a function to search for this values
+* And then create function **(convert_sqft_to_num)** 
 
