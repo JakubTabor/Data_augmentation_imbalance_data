@@ -17,3 +17,10 @@
 # I see that column (total_sqft) have values with two composites
 * So i create a function to search for this values
 * And then create function **(convert_sqft_to_num)** 
+* Which search for values with length of two tokens and take intermediate value
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images/sqft_to_num_function.png)
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images/convert_sqft_to_num.png)
+* Next i create **(price_per_sqft column)** which is the price column multiply by 100 000
+* I want to know the number of location occurrence, and i see that the distribution is very divergent
+* I have **(1287 different locations)** and there are **(1047 locations with occurrence greater than 10)** and**(1047 with occurrence less than 10)** 
