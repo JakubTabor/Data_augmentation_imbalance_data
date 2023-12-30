@@ -12,4 +12,4 @@
 * And then create function **(convert_sqft_to_num)** 
 * Which search for values with length of two tokens and take intermediate value
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images/sqft_to_num_function.png)
-
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images/convert_sqft_to_num.png)
