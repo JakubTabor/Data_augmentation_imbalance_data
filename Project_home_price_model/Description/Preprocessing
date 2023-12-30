@@ -10,4 +10,5 @@
 # I see that column (total_sqft) have values with two composites
 * So i create a function to search for this values
 * And then create function **(convert_sqft_to_num)** 
+* Which search for values with length of two tokens and take intermediate value
 
