@@ -1,4 +1,3 @@
-# [Home price prediction](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/bengaluru_home_price_model.ipynb)
 # In this section i gonna preprocess the dataset using mainly simple python and math
 * I start from simpified my data into few columns: **(location, size,	total_sqft,	bath,	price)**
 * I check if there are any non-values and drop them
