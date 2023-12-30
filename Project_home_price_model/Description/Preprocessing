@@ -13,3 +13,4 @@
 * Which search for values with length of two tokens and take intermediate value
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images/sqft_to_num_function.png)
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images/convert_sqft_to_num.png)
+* Next i create **(price_per_sqft column)** which is the price column multiply by 100 000
