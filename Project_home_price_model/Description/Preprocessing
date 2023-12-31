@@ -21,3 +21,4 @@
 * First i iterate over **(location column)** and take **(mean and std)** for price_per_sqft column
 * Then i can create **(variable reduced_df)** which is first **(difference between mean and std)** in price_per_sqft column 
 * I take values greater than this difference
+* And i also define **(sum between mean and std of price_per_sqft)** and **(take values lower or equal)** from it 
