@@ -19,3 +19,4 @@
 * And i also check how many for my (bhk loumn) are outliers, so with less that 300
 # And next i write the function to remove outliers for (price_per_sqft cloumn)
 * First i iterate over **(location column)** and take **(mean and std)** for price_per_sqft column
+* Then i can create **(variable reduced_df)** which is first **(difference between mean and std)** in price_per_sqft column 
