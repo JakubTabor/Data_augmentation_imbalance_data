@@ -17,3 +17,4 @@
 * I want to know the number of location occurrence, and i see that the distribution is very divergent
 * I have **(1287 different locations)** and there are **(1047 locations with occurrence greater than 10)** and**(1047 with occurrence less than 10)**
 * And i also check how many for my (bhk loumn) are outliers, so with less that 300
+# And next i write the function to remove outliers for (price_per_sqft cloumn)
