@@ -28,4 +28,5 @@
 * And i also define **(sum between mean and std of price_per_sqft)** and **(take values lower or equal)** from it 
 * I concatenate it into DataFrame and create new dataset without outliers
 # Next i gonna revome outliers from bhk column
-* First i create function **(plot_scatter_chart)** which take **(columns for bhk 2 and 3 and their prices)**
+* First i create function **(plot_scatter_chart)** which take **(columns for bhk 2 and 3 their total sqft and prices)**
+* 
