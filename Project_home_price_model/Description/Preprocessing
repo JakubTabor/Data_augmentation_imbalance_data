@@ -18,7 +18,8 @@
 * I have **(1287 different locations)** and there are **(1047 locations with occurrence greater than 10)** and**(1047 with occurrence less than 10)**
 * And i also check how many for my (bhk loumn) are outliers, so with less that 300
 # And next i write the function to remove outliers for (price_per_sqft cloumn)
-![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images/sqft_to_num_function.png)
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images/remove_pps_outliers.png)
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images/pps_values.png)
 * First i iterate over **(location column)** and take **(mean and std)** for price_per_sqft column
 * Then i can create **(variable reduced_df)** which is first **(difference between mean and std)** in price_per_sqft column 
 * I take values greater than this difference
