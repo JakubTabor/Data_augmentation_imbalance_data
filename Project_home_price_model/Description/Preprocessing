@@ -25,3 +25,4 @@
 * I take values greater than this difference
 * And i also define **(sum between mean and std of price_per_sqft)** and **(take values lower or equal)** from it 
 * I concatenate it into DataFrame and create new dataset without outliers
+# Next i gonna revome outliers from bhk column
