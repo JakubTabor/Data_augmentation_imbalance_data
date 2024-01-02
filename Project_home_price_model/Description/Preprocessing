@@ -35,3 +35,4 @@
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images/remove_bhk_outliers_function.png)
 * I gonna exclude this data by its indices and put them into numpy array
 * I iterate over **(location column and then in same loop over bhk column)** 
+* It **(acumulate bhk stats as mean, std with price_per_sqft and counts)**
