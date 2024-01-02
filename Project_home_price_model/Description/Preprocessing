@@ -41,3 +41,4 @@
 * They append in the list and they are removed
 * And then i use this function on my dataset
 # And finally whats left is the location column, we need to convert it into numerical form and in same time keep the informations
+* But first i remove the columns that will be my y variables, for predictions
