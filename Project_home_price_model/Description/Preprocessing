@@ -40,3 +40,4 @@
 * It **(iteration over all stats and if they take value greater that 5 there indices are excluded)**
 * They append in the list and they are removed
 * And then i use this function on my dataset
+# And finally whats left is the location column, we need to convert it into numerical form and in same time keep the informations
