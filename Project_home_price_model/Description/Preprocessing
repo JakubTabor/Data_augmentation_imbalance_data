@@ -38,3 +38,4 @@
 * It **(acumulate bhk stats as mean, std with price_per_sqft and counts)**
 # Now its part for outliers: in previous for loop i make another loop for bhk
 * It **(iteration over all stats and if they take value greater that 5 there indices are excluded)**
+* They append in the list and they are removed
