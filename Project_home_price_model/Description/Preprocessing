@@ -39,3 +39,4 @@
 # Now its part for outliers: in previous for loop i make another loop for bhk
 * It **(iteration over all stats and if they take value greater that 5 there indices are excluded)**
 * They append in the list and they are removed
+* And then i use this function on my dataset
