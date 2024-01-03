@@ -53,4 +53,9 @@
 # And finally whats left is the location column, we need to convert it into numerical form and in same time keep the informations
 * But first i remove the columns that will be my y variables, for predictions
 * And then **(i call from pandas get_dummies on location column)**
-* It will create columns for all locations  and now i have 245 columns 
+* It will create columns for all locations  and now i have 245 columns
+
+#
+#
+#
+# [2. Model tuning](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Description/Model_tuning)
