@@ -37,6 +37,7 @@
 # Next i gonna revome outliers from bhk column
 * First i create function **(plot_scatter_chart)** which take **(columns for bhk 2 and 3 their total sqft and prices)**
 * I see outliers far beyound the rest of the datapoints
+
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images/plot1_outliers.png)
 
 # So i create function to remove this outliers from bhk column
