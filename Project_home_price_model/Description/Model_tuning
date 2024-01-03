@@ -1,1 +1,2 @@
 # In this section i gonna first call Linear model and then tune its parameters to achieve the best accuracy
+* I start from creating X and y variables and put them into (train_test_split) and get train and test sets
