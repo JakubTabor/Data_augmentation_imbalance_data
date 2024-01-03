@@ -23,4 +23,32 @@
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images/convert_sqft_to_num%20.png)
 * Next i create **(price_per_sqft column)** which is the price column multiply by 100 000
 * I want to know the number of location occurrence, and i see that the distribution is very divergent
-* I have **(1287 different locations)** and there are **(1047 locations with occurrence greater than 10)** and**(1047 with occurrence less than 10)** 
+* I have **(1287 different locations)** and there are **(1047 locations with occurrence greater than 10)** and**(1047 with occurrence less than 10)**
+* And i also check how many for my (bhk loumn) are outliers, so with less that 300
+# And next i write the function to remove outliers for (price_per_sqft cloumn)
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images/remove_pps_outliers.png)
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images/pps_values.png)
+* First i iterate over **(location column)** and take **(mean and std)** for price_per_sqft column
+* Then i can create **(variable reduced_df)** which is first **(difference between mean and std)** in price_per_sqft column 
+* I take values greater than this difference
+* And i also define **(sum between mean and std of price_per_sqft)** and **(take values lower or equal)** from it 
+* I concatenate it into DataFrame and create new dataset without outliers
+# Next i gonna revome outliers from bhk column
+* First i create function **(plot_scatter_chart)** which take **(columns for bhk 2 and 3 their total sqft and prices)**
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images/plot1_outliers.png)
+* I see outliers far beyound the rest of the datapoints
+# So i create function to remove this outliers from bhk column
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images/remove_bhk_outliers_function.png)
+* I gonna exclude this data by its indices and put them into numpy array
+* I iterate over **(location column and then in same loop over bhk column)** 
+* It **(acumulate bhk stats as mean, std with price_per_sqft and counts)**
+# Now its part for outliers: in previous for loop i make another loop for bhk
+* It **(iteration over all stats and if they take value greater that 5 there indices are excluded)**
+* They append in the list and they are removed
+* And then i use this function on my dataset
+# And finally whats left is the location column, we need to convert it into numerical form and in same time keep the informations
+* But first i remove the columns that will be my y variables, for predictions
+* And then **(i call from pandas get_dummies on location column)**
+* It will create columns for all locations  and now i have 245 columns 
