@@ -10,3 +10,4 @@
 * And now if i want i can use **the highest, which is (0.860)**
 
 # Next i use GridSearchCV to train some models with different parameters it will be hyperparameter tuning
+* I start from putting Linear Regression model and two ways for coefficient to be negative or positive (False, True) 
