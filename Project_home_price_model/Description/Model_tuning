@@ -11,3 +11,4 @@
 
 # Next i use GridSearchCV to train some models with different parameters it will be hyperparameter tuning
 * I start from putting Linear Regression model and two ways for coefficients to be negative or positive (False, True) 
+* Next will be lasso, i set alpha parameter to 1 and 2, it  is strength of regularization
