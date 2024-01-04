@@ -4,3 +4,4 @@
 * And reach high accuracy, but we can achieve better score
 # First i gonna try to shuffle the data and put it into 5 subsets, with it i gonna train my model
 * I reach four scores that are fairly better than in previous evaluation
+* And now if i want i can use **the highest, which is (0.860)**
