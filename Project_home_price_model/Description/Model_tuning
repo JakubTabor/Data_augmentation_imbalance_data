@@ -2,3 +2,4 @@
 * I start from creating X and y variables and put them into (train_test_split) and get train and test sets
 * My dataset is ready for training, so i put it into Linear regression model
 * And reach high accuracy, but we can achieve better score
+# First i gonna try to shuffle the data and put it into 5 subsets, with it i gonna train my model
