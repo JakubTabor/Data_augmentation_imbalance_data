@@ -16,4 +16,5 @@
 * **cyclic loop over features sequentially** and **random do updated of random coefficient every iteration**
 * And next is **decision_tree Regressor and parameters are:**
 * First **criterion which is measurement parameter set to squared_error, so mean squared error**
+* And **friedman_mse which is mean squared error with Friedman's improvement**
  
