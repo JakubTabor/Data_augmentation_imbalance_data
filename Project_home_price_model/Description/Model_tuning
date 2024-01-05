@@ -17,4 +17,5 @@
 * And next is **decision_tree Regressor and parameters are:**
 * First **criterion which is measurement parameter set to squared_error, so mean squared error**
 * And **friedman_mse which is mean squared error with Friedman's improvement**
+* And also **splitter parameter, which set the split at each node** i set them to **best and random for type of split**
  
