@@ -14,4 +14,6 @@
 * Next will be lasso, i set alpha parameter to 1 and 2, it  is strength of regularization
 * Also i put **selection parameter and set for random and cyclic**
 * **cyclic loop over features sequentially** and **random do updated of random coefficient every iteration**
-* And next is decision_tree Regressor and parameters are:
+* And next is **decision_tree Regressor and parameters are:**
+* First **criterion which is measurement parameter set to squared_error, so mean squared error**
+ 
