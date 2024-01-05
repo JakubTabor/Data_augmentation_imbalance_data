@@ -22,3 +22,4 @@
 * I use **5 combinations of parameters and put my data into GridSearchCV to train it**
 # Scores append and we can see that Linear Regression model is the best in that case, also with a little improvement to previous one
 * Other model are not performing that bad, but they are far below Linear Regression model
+# Next i gonna create predict_price function which from given informations return me estimated price
