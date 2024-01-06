@@ -25,3 +25,4 @@
 # Next i gonna create predict_price function which from given informations return me estimated price
 * First i include all parameters which are needed, so location, sqft, bath and bhk
 * Then i define location index of certain element
+* And add position of columns that are included and set order of parameters
