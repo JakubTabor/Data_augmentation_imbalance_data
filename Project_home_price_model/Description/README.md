@@ -44,7 +44,7 @@
 #
 #
 #
-# []()
+# [2. Model tuning](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Description/Model_tuning)
 # In this section i gonna first call Linear model and then tune its parameters to achieve the best accuracy
 * I start from creating X and y variables and put them into (train_test_split) and get train and test sets
 * My dataset is ready for training, so i put it into Linear regression model
