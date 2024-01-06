@@ -24,3 +24,4 @@
 * Other model are not performing that bad, but they are far below Linear Regression model
 # Next i gonna create predict_price function which from given informations return me estimated price
 * First i include all parameters which are needed, so location, sqft, bath and bhk
+* Then i define location index of certain element
