@@ -10,6 +10,9 @@
 * And now if i want i can use **the highest, which is (0.860)**
 
 # Next i use GridSearchCV to train some models with different parameters it will be hyperparameter tuning
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images_model/linear_regression.png)
+
 * I start from putting Linear Regression model and two ways for coefficients to be negative or positive (False, True) 
 * Next will be lasso, i set alpha parameter to 1 and 2, it  is strength of regularization
 * Also i put **selection parameter and set for random and cyclic**
@@ -27,3 +30,4 @@
 * Then i define location index of certain element
 * And add position of columns that are included and set order of parameters
 * And then i try some predictions, it seems working good
+# So i put my model and its functionalities into pickle format, so i can use it if future development
