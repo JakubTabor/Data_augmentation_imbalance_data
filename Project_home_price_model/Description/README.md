@@ -76,12 +76,23 @@
 * And **friedman_mse which is mean squared error with Friedman's improvement**
 * And also **splitter parameter, which set the split at each node** i set them to **best and random for type of split**
 # Then i **create list for scores in which will append first model and then parameters all in dataframe format**
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images_model/scores_dataframe.png)
+
 * I use **5 combinations of parameters and put my data into GridSearchCV to train it**
 # Scores append and we can see that Linear Regression model is the best in that case, also with a little improvement to previous one
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images_model/scores.png)
+
 * Other model are not performing that bad, but they are far below Linear Regression model
 # Next i gonna create predict_price function which from given informations return me estimated price
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images_model/predict_function.png)
+
 * First i include all parameters which are needed, so location, sqft, bath and bhk
 * Then i define location index of certain element
 * And add position of columns that are included and set order of parameters
 * And then i try some predictions, it seems working good
 # So i put my model and its functionalities into pickle format, so i can use it if future development
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images_model/model_saving.png)
