@@ -38,6 +38,9 @@
 
 * Other model are not performing that bad, but they are far below Linear Regression model
 # Next i gonna create predict_price function which from given informations return me estimated price
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images_model/predict_function.png)
+
 * First i include all parameters which are needed, so location, sqft, bath and bhk
 * Then i define location index of certain element
 * And add position of columns that are included and set order of parameters
