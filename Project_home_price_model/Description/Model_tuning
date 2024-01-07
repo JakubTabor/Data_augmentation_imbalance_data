@@ -46,3 +46,5 @@
 * And add position of columns that are included and set order of parameters
 * And then i try some predictions, it seems working good
 # So i put my model and its functionalities into pickle format, so i can use it if future development
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images_model/model_saving.png)
