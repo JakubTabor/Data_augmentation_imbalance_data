@@ -5,7 +5,7 @@
 #
 #
 #
-# [1. Preprocessing](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Description/Preprocessing)
+# [1. Data preprocessing](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Description/Preprocessing)
 * I start from simpified my data into few columns: **(location, size,	total_sqft,	bath,	price)**
 * I check if there are any non-values and drop them
 
@@ -48,14 +48,59 @@
 * It **(acumulate bhk stats as mean, std with price_per_sqft and counts)**
 # Now its part for outliers: in previous for loop i make another loop for bhk
 * It **(iteration over all stats and if they take value greater that 5 there indices are excluded)**
-* They append in the list and they are removed
-* And then i use this function on my dataset
-# And finally whats left is the location column, we need to convert it into numerical form and in same time keep the informations
-* But first i remove the columns that will be my y variables, for predictions
-* And then **(i call from pandas get_dummies on location column)**
-* It will create columns for all locations  and now i have 245 columns
 
 #
 #
 #
 # [2. Model tuning](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Description/Model_tuning)
+# In this section i gonna first call Linear model and then tune its parameters to achieve the best accuracy
+* I start from creating X and y variables and put them into (train_test_split) and get train and test sets
+* My dataset is ready for training, so i put it into Linear regression model
+* And reach high accuracy, but we can achieve better score
+# First i gonna try to shuffle the data and put it into 5 subsets, with it i gonna train my model
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images_model/cross_val_score.png)
+
+* I reach four scores that are fairly better than in previous evaluation
+* And now if i want i can use **the highest, which is (0.860)**
+
+# Next i use GridSearchCV to train some models with different parameters it will be hyperparameter tuning
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images_model/linear_regression.png)
+
+* I start from putting Linear Regression model and two ways for coefficients to be negative or positive (False, True) 
+* Next will be lasso, i set alpha parameter to 1 and 2, it  is strength of regularization
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images_model/lasso.png)
+
+* Also i put **selection parameter and set for random and cyclic**
+* **cyclic loop over features sequentially** and **random do updated of random coefficient every iteration**
+* And next is **decision_tree Regressor and parameters are:**
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images_model/decision_tree.png)
+
+* First **criterion which is measurement parameter set to squared_error, so mean squared error**
+* And **friedman_mse which is mean squared error with Friedman's improvement**
+* And also **splitter parameter, which set the split at each node** i set them to **best and random for type of split**
+# Then i **create list for scores in which will append first model and then parameters all in dataframe format**
+* I use **5 combinations of parameters and put my data into GridSearchCV to train it**
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images_model/scores_dataframe.png)
+
+# Scores append and we can see that Linear Regression model is the best in that case, also with a little improvement to previous one
+* Other model are not performing that bad, but they are far below Linear Regression model
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images_model/scores.png)
+
+# Next i gonna create predict_price function which from given informations return me estimated price
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images_model/predict_function.png)
+
+* First i include all parameters which are needed, so location, sqft, bath and bhk
+* Then i define location index of certain element
+* And add position of columns that are included and set order of parameters
+* And then i try some predictions, it seems working good
+# So i put my model and its functionalities into pickle format, so i can use it if future development
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Project_home_price_model/Images_model/model_saving.png)
+
